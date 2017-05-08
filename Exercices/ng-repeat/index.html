@@ -1,0 +1,54 @@
+<! doctype html>
+
+
+<html ng-app="myApp">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+        <style>
+   table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: black;
+}
+</style>
+    </head>
+<body ng-controller="mainCtrl">
+    <label>Search Any: <input ng-model="search.$"></label><br><br>
+    <label>Handle only <input ng-model="search.handle"></label><br><br>
+<label>rank only <input ng-model="search.rank"></label><br><br>
+   <label>clan only <input ng-model="search.clan"></label><br> 
+    
+<label>Equality <input type="checkbox" ng-model="exact"  ></label><br>
+
+    <table>
+        <tr>    <th>handle</th>  
+            <th>rank</th>   
+            <th>clan</th>
+        </tr>
+<tr ng-repeat="obj in player.kills | filter: search"> 
+    <td>{{obj.handle}}</td>
+      <td>{{obj.rank}}</td>  
+        <td><p  ng-repeat="inner in obj.clan| filter">{{inner}}</p></td>
+        </tr>
+    </table>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="app.js"></script>
+    </body>
+</html>

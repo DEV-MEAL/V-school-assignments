@@ -1,0 +1,57 @@
+{
+	"appetizers": [{
+			"name": "Goat Cheese Trio",
+			"Ingredients": ["cheese", "mixed herbs", "peppercorns"],
+			"description": " Serve with baguette slices or crackers."
+		},
+		{
+			"name": "Falafel  Lebanese ",
+			"Ingredients": ["white chick peas", "baking powder", "oil"],
+			"description": " An all-time favourite Lebanese dish, Falafel can classify as a sumptuous snack or a meal in its own right depending on when you have it! "
+		}
+	],
+	"cold sandwiches": [{
+			"name": "Corn Muffin Ham & Cheese",
+			"Ingredients": ["6 corn muffins", "mayonnaise", "bacon bits"],
+			"description": "Cut each muffin in half horizontally. In a small bowl, combine the mayonnaise, bacon bits, dill and parsley."
+		},
+		{
+			"name": "Middle Eastern Kibbeh",
+			"Ingredients": ["meat", "onion", "oil"],
+			"description": "Kibbeh is a wonderful dish from the Middle East traditionally made with lamb meat but beef is acceptable, too"
+		}
+	],
+	"hot sandwiches": [{
+			"name": "American Burger",
+			"Ingredients": ["Ham", "onion", "corn"],
+			"description": ""
+		},
+		{
+			"name": "Lebanese Burger ",
+			"Ingredients": ["Meat", "Pickles", "Ketchup"],
+			"description": ""
+		}
+	],
+	"desserts": [{
+			"name": "Kaake",
+			"Ingredients": ["", "", ""],
+				"description": "Lebanese Kaake."
+			},
+			{
+				"name": "Cheese Cake",
+				"Ingredients": ["cheese", "Sugar", "Brownie"],
+				"description": " "
+			}
+		],
+		"drinks": [{
+				"name": "pepsi",
+				"Ingredients": ["pepsi", "", ""],
+				"description": "soft Drink."
+			},
+			{
+				"name": "Water",
+				"Ingredients": ["Water", "", ""],
+				"description": "Cold Water  "
+			}
+		]
+	}

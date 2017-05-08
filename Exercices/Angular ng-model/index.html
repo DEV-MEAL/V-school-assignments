@@ -1,0 +1,31 @@
+<! doctype html>
+<html ng-app='myApp'>
+    <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    </head>
+<body ng-controller='mainCtrl'>
+    <form>
+        <div class="form-group col-lg-10">
+            <label for="input1">Your Message :</label>
+   <input class="form-control" type="text" ng-model="input1"/></div> 
+        
+     <div class="form-group col-lg-10">   <label for="input2">Your DOB:</label><input class="form-control" type="date" ng-model="input2"/></div>
+     <div class="form-group col-lg-5">   <label for="input3">Married :</label><input class="checkbox" type="checkbox" ng-model="input3"/></div>
+    <div class="form-group col-lg-10"> 
+        your message:<span>{{input1}}</span><br>Your DOB: <span>{{input2}}</span> <br>Married: <span>{{input3}}</span></div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="mainCtrl.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+
+    </body>
+
+
+
+</html>

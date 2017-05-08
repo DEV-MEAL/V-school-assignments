@@ -1,0 +1,19 @@
+body { 
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container{
+    opacity: 0.9;
+    background-color:aquamarine;
+    width: 100%;
+    
+}
+h2
+{
+    
+      font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+      color: #eb3812;
+}

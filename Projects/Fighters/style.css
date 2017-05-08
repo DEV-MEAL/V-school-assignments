@@ -1,0 +1,103 @@
+/*
+#fight1 {
+  display: flex;
+
+justify-content:flex-start;
+}
+
+
+#fight2 {
+  display: flex;
+
+justify-content:flex-end;
+}
+*/
+.flex-container {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 500px;
+}
+
+/*
+img {
+    width: 100%;
+    height: auto;
+}*/
+
+#fight1 {
+    width: 100%;
+    height: 400px;
+    background-image: url(fighter1.jpg);
+      background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+}
+#fight2 {
+    width: 100%;
+    height: 400px;
+    background-image: url(fighter2.jpg);
+          background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+}
+
+
+.figtbtn {
+  vertical-align: middle;
+  display: block;
+  width: 25%;
+    height: 10%;
+  margin: 0 auto;
+/*    background-color: azure;*/
+/*    border-radius: 4px;*/
+/*    -webkit-transition-duration: 0.4s;  Safari */
+/*    transition-duration: 0.4s;*/
+/*    cursor: pointer;*/
+/*        padding: 16px 32px;*/
+/*    font-size: 18px;*/
+/*    font-weight:bold;*/
+}
+.mydiv
+{
+
+  vertical-align: middle;
+  display: block;
+  width: 25%;
+    height: 10%;
+  margin: 0 auto;
+   color:white;
+  
+
+    font-size: 30px;
+    
+}
+
+
+#div1{
+   width: 100%;
+    height: 500px;  
+}
+#div2{
+   width: 100%;
+    height: 500px;  
+}
+body {
+    background-image: url(bg.jpg);
+}
+span
+{
+ text-align: center;  
+}
+
+
+
+
+
+
+/*.figtbtn:hover {*/
+/*    background-color: #4CAF50;  Green */
+/*    color: white;*/
+/*}*/

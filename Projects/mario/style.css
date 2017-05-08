@@ -1,0 +1,126 @@
+
+/*
+body  {
+  display: flex;
+  justify-content: center;
+}
+*/
+/*
+#boxgombas {
+  width: 300px;
+  height: 300px;
+  background-color: green;
+
+}
+*/
+#gombas:hover {
+  width: 75px;
+  height: 125px;
+/*  background-color: pink;*/
+  transition: all 0.5s ease-in-out;
+  animation: ifiniteRotation infinite 1s linear;
+}
+@keyframes ifiniteRotation {
+  from {
+    transform: rotate3d(1,0,-1,0deg);
+  }
+  to {
+    transform: rotate3d(1,0,0,360deg);
+  }
+}
+
+
+#bombs:hover {
+  width: 75px;
+  height: 125px;
+/*  background-color: pink;*/
+  transition: all 0.5s ease-in-out;
+  animation: ifiniteRotation infinite 1s linear;
+}
+
+
+
+
+
+
+
+
+body {
+background-color:aquamarine;
+      height: 100vh;
+    background-position: center ;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 100px;
+    color:Blue;
+}
+
+#section1 {
+    height: 20%; 
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    margin-top: 60px;
+    border: 0px solid blue;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0px;
+    
+}
+
+.box {
+    margin: auto;
+    padding: 15px;
+       text-align: center;
+    width: 15%;
+    vertical-align: text-top;
+    border-radius: 20px;
+}
+
+#cheep {
+    height: 150px;
+    width: 250px;
+}
+
+#bombs {
+    height: 150px;
+      width: 250px;
+          transition-property: all;
+  transition-duration: .5s;
+  transition-timing-function: ease-in-out;
+}
+
+#gombas {
+    height: 150px;
+      width: 250px;
+      transition-property: all;
+  transition-duration: .5s;
+  transition-timing-function: ease-in-out;
+}
+
+.GrandTot {
+    text-align: center;
+    margin-top: 50px;
+}
+#total {
+    width: 300px;
+    height: 30px;
+}
+.footer{ 
+  position:absolute; 
+    text-transform: uppercase;
+    text-align:center;
+    color:white;
+    font-size: 25px; 
+  bottom:0; 
+  width:100%; 
+  height:100px; 
+    background-color: deepskyblue;
+}

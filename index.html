@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <style>
+
+
+form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+    </head>
+<body>
+<h1>Travel Form</h1>
+<form class="form-horizontal" action="" id="myform">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="fname">Fisrt Name</label>
+    <div class="col-xs-4">
+      <input type="text" class="form-control" id="fname" placeholder="First Name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="lname">Last Name</label>
+    <div class="col-xs-4"> 
+      <input type="text" class="form-control" id="lname" placeholder="Last Name">
+    </div>
+  </div>
+     <div class="form-group">
+    <label class="control-label col-sm-2" for="age">Age</label>
+    <div class="col-xs-4"> 
+      <input type="number" class="form-control" id="age" placeholder="age">
+    </div>
+  </div>
+  <div class="form-group"> 
+          <label class="control-label col-sm-2" for="Gender">Gender</label>
+    <div class=" col-xs-4">
+      <div class="radio">
+        <label><input type="radio" name="gender" value="Male"> Male</label>
+          <label><input type="radio" name="gender" value="Female"> Female</label>
+      </div>
+    </div>
+  </div>
+      <div class="form-group">
+    <label class="control-label col-sm-2" for="loc">Location</label>
+    <div class="col-xs-4"> 
+      <select id="loc" name="location">
+          <option>South</option>
+          <option>North</option>
+          <option>west</option>
+        </select>
+    </div>
+  </div>
+      <div class="form-group"> 
+          <label class="control-label col-sm-2" for="drest">Dietary restrictions</label>
+    <div class="col-xs-4">
+      <div class="checkbox">
+        <label><input type="checkbox" value="vegetarian" name="dierest" class="chk"> vegetarian</label>
+          <label><input type="checkbox" value="kosher" name="dierest" class="chk"> kosher</label>
+               <label><input type="checkbox" value="lactose free" name="dierest" class="chk"> lactose free</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="button" id="btnsubmit" onclick="PrintForm()">Submit</button>
+    </div>
+  </div>
+</form>
+
+<script type="text/javascript" src="getdisplay.js"></script>
+</body>
+</html>
